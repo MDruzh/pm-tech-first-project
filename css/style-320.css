@@ -1,0 +1,43 @@
+@media only screen and (min-width: 320px) and (max-width: 750px) {
+    body {
+        min-width: 320px;
+        background-color: rgba(0, 128, 0, 0.192);
+    }
+
+    .wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .page-nav, .main-nav {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+        height: 40px;
+        background-color: #040d0d;
+    }
+
+    .head {
+        height: 140px;
+        border: 1px solid #000;
+    }
+
+    .mobile-header {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #bdc3c5;
+    }
+
+    .mobile-header span {
+        margin-left: 10px;
+    }
+
+    .news {
+        display: none;
+    }
+}
