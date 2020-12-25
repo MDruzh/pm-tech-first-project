@@ -406,6 +406,11 @@
         color: #c8d4dc;
     }
 
+    .footer-nav-item span a {
+        color: #c8d4dc;
+        text-decoration: none;
+    }
+
     .footer-nav-item:last-child {
         margin-bottom: 20px;
     }

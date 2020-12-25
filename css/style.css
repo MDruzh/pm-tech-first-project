@@ -139,6 +139,31 @@
         margin-top: 20px;
     }
 
+    .news-img {
+        position: relative;
+    }
+
+    .date {
+        display: block;
+        width: 25px;
+        height: 20px;
+        text-align: center;
+        border-radius: 3px;
+        background-color: #fff;
+        color: #ff6326;
+        position: absolute;
+        bottom: 15px;
+        left: 18px;
+    }
+
+    .day {
+        display: block;
+        width: 60px;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 13px;
+    }
+
     .news-info {
         width: 260px;
         overflow-y: scroll;
