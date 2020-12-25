@@ -585,7 +585,7 @@
         width: 100px;
         height: 100px;
         border-radius: 50%;
-        padding-top: 20px;
+        padding-top: 25px;
         background-color: #fff;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -617,18 +617,12 @@
         list-style: none;
     }
 
-    .reasons .dis .h {
+    .reasons .dis .whyhead {
         background: #cb0b13;
-        padding-top: 30px;
-        border-radius: 10px 10px 0 0;
-        min-height: 80px;
     }
 
-    .reasons .adv .h {
+    .reasons .adv .whyhead {
         background: #16a333;
-        padding-top: 30px;
-        border-radius: 10px 10px 0 0;
-        min-height: 80px;
     }
 
     .reasons ul > li {
@@ -653,18 +647,42 @@
         margin-left: -1em;
     }
 
-    .reasons .h {
-        padding-left: 30px;
+    .whyhead {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .whyhead > h1 {
+        margin: auto 0;
+        font-size: 13pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    .whyhead > img {
+        margin: auto, 40px;
+        height: 25px;
+    }
+
+    .reasons .whyhead {
         height: 75px;
         color: #fff;
         font-weight: 500;
         text-transform: uppercase;
+        padding-top: 30px;
+        padding-left: 30px;
+        border-radius: 10px 10px 0 0;
+        min-height: 80px;
     }
 
     .reasons .dis {
         border: #f6bdbf 2px solid;
     }
     
+    
+
     .reasons .adv {
         border: #9bd1a6 2px solid;
     }
