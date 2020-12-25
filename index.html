@@ -1,92 +1,265 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOMY</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOMY</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <nav class="nav">
-                <div class="mobile-header">
-                    <img src="img/burger-logo.png" alt="">
-                    <span>Меню</span>
-                </div>
-                <ul class="main-nav">
-                    <li class="main-nav-item">Каталог<span class="test"></span></li>
-                    <li class="main-nav-item">О компании</li>
-                    <li class="main-nav-item">Оплата и доставка</li>
-                    <li class="main-nav-item">Гарантии и возврат</li>
-                    <li class="main-nav-item">Сотрудничество</li>
-                    <li class="main-nav-item">Услуги</li>
-                    <li class="main-nav-item">Решения</li>
-                    <li class="main-nav-item">Техподдержка</li>
-                    <li class="main-nav-item">Контакты</li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
+  <header class="header">
     <div class="wrapper">
+      <nav class="nav">
+        <div class="mobile-header">
+          <img src="img/burger-logo.png" alt="">
+          <span>Меню</span>
+        </div>
+        <ul class="main-nav">
+          <li class="main-nav-item">Каталог<span class="test"></span></li>
+          <li class="main-nav-item">О компании</li>
+          <li class="main-nav-item">Оплата и доставка</li>
+          <li class="main-nav-item">Гарантии и возврат</li>
+          <li class="main-nav-item">Сотрудничество</li>
+          <li class="main-nav-item">Услуги</li>
+          <li class="main-nav-item">Решения</li>
+          <li class="main-nav-item">Техподдержка</li>
+          <li class="main-nav-item">Контакты</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-        <!-- Тут буде блок з логотипом -->
-        <section class="head">Logo section here</section>
+  <div class="wrapper">
 
-        <nav class="page-nav">
-            <ul class="page-nav-list">
-                <li class="page-nav-list-item"><a href="#">Voip оборудование</a></li>
-                <li class="page-nav-list-item"><a href="#">Skype оборудование</a></li>
-                <li class="page-nav-list-item"><a href="#">GSM оборудование</a></li>
-                <li class="page-nav-list-item"><a href="#">Видео-оборудование</a></li>
-                <li class="page-nav-list-item"><a href="#">Радио и dest телефоны</a></li>
-                <li class="page-nav-list-item"><a href="#">Гарнитуры</a></li>
-                <li class="page-nav-list-item"><a href="#">Электронные замки</a></li>
-                <li class="page-nav-list-item"><a href="#">Домофонные системы</a></li>
-                <li class="page-nav-list-item"><a href="#">Системы записи<br> телефонных разговоров</a></li>
-                <li class="page-nav-list-item"><a href="#">Сетевое оборудование</a></li>
-                <div class="page-nav-arrow"><i class="arrow-right"></i></div>
+    <!-- Тут буде блок з логотипом -->
+    <section class="head">
+      <div class="htop">
+        <div>
+          Ваш регион:
+          <span class="dotted">
+                        Москва
+                    </span>
+        </div>
+        <div class="auth">
+          <a href="#">Войти</a> &#160;&#160;&#160;&#160;
+          <a href="#">Личный Кабинет</a>
+        </div>
+      </div>
+      <div class="hd">
+        <div class="logo">
+          <div class="nm">
+            HO
+            <div>MY</div>
+            RU
+          </div>
+          <div class="slogan">Оборудование и решения для VoIP</div>
+        </div>
+        <div class="hcontacts">
+          <div class="p">
+            <p class="num">
+              +7 495 2-55-44-66
+            </p>
+            <p>(пн-пт с 9 до 18 ч)</p>
+          </div>
+          <div>
+            <p>
+              <img src="./img/whatsUp.png">
+              <img src="./img/viber.png"> +7 903 111-11-11
+            </p>
+          </div>
+          <div class="e">
+            <a href="#">info@homy.ru</a>
+          </div>
+          <div class="recall">
+            <span class="dotted">ОБРАТНЫЙ</span>
+            <br>
+            <span class="dotted">ЗВОНОК</span>
+          </div>
+        </div>
+        <div class="search">
+          <div class="t">
+            <div>VOIP РЕШЕНИЯ</div>
+            ДЛЯ ЭКОНОМНЫХ ЛЮДЕЙ
+          </div>
+          <div class="topSrch">
+            <form action="/search/" method="get">
+              <input type="text" value="" placeholder="Поиск по сайту">
+              <button class="btn">искать</button>
+            </form>
+          </div>
+        </div>
+        <div class="cart">
+          <div class="tcart">
+              <img src="./img/cart.png">
+              <p class="t">Корзина</p>
+              <p>
+                  <span class="dotted">4</span>
+                  / 4000
+              </p>
+          </div>
+          <div class="btn-options">
+          <a href="#">
+            <img style="vertical-align: middle" src="./img/heart.png" height="17px">
+            <span>Избранные</span>
+            <span>7</span>
+          </a>
+          <a href="#">
+            <img style="vertical-align: middle" src="./img/compare.png" height="20px">
+            <span>Сравнения</span>
+            <span>2</span>
+          </a>
+          </div>
+        </div>
+    </section>
+    <nav class="page-nav">
+      <ul class="page-nav-list">
+        <li class="page-nav-list-item"><a href="#">Voip оборудование</a></li>
+        <li class="page-nav-list-item"><a href="#">Skype оборудование</a></li>
+        <li class="page-nav-list-item"><a href="#">GSM оборудование</a></li>
+        <li class="page-nav-list-item"><a href="#">Видео-оборудование</a></li>
+        <li class="page-nav-list-item"><a href="#">Радио и dest телефоны</a></li>
+        <li class="page-nav-list-item"><a href="#">Гарнитуры</a></li>
+        <li class="page-nav-list-item"><a href="#">Электронные замки</a></li>
+        <li class="page-nav-list-item"><a href="#">Домофонные системы</a></li>
+        <li class="page-nav-list-item"><a href="#">Системы записи<br> телефонных разговоров</a></li>
+        <li class="page-nav-list-item"><a href="#">Сетевое оборудование</a></li>
+        <div class="page-nav-arrow"><i class="arrow-right"></i></div>
+      </ul>
+    </nav>
+
+    <section class="news">
+      <aside class="news-info">
+        <h2>Новости компании</h2>
+        <hr>
+        <div class="news-item">
+          <img src="img/news-1.png" alt="">
+          <div class="news-description">
+            <p class="news-header"><a href="#">Новинка от "Элтекс" - точка доступа WEP-2ac</a></p>
+            <p class="news-text">Предприятие "Элтекс" запустило производство точки доступа WEP-2ac.</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <img src="img/news-2.png" alt="">
+          <div class="news-description">
+            <p class="news-header"><a href="#">Новинка от компании Grandstream!</a></p>
+            <p class="news-text">Скоро в продаже мощный маршрутизатор GWN7000!</p>
+          </div>
+        </div>
+        <div class="news-item">
+          <img src="img/news-3.png" alt="">
+          <div class="news-description">
+            <p class="news-header"><a href="#">WiFi точка доступа от компании Grandstream!</a></p>
+            <p class="news-text">Уже скоро в продаже!</p>
+          </div>
+        </div>
+        <a class="news-info-all" href="#">Все новости</a>
+      </aside>
+      <main class="slider-block">
+        <div class="sliderHead">
+          <b>Более 2000 товаров</b> от 40+ производителей в одном магазине.
+          <span style="color: #4673ab; font-weight: bold;">Любые решения "под ключ"</span>
+        </div>
+        <div class="slider">
+          <img src="./img/arrLeft.png" class="arrow">
+          <div class="sliderBanner">
+            <div>
+              <h1>Революционное решение</h1>
+              <h2>На рынке среди систем вкс!</h2>
+              <h3>GVC 3200 от компании grandstream это:</h3>
+            </div>
+            <ul>
+              <li>
+                9-ти сторонняя аудио/видео конференция без покупки дополнительного ПО
+              </li>
+              <li>2 Мпикс камера CMOS с разрешением 1920x1080V@15fps</li>
+              <li>
+                Гигабитный порт, встроенный модуль WiFi (802.11n) и Bluetooth 4.0 Miracast
+              </li>
             </ul>
-        </nav>
-
-        <section class="news">
-            <aside class="news-info">
-                <h2>Новости компании</h2><hr>
-                <div class="news-item">
-                    <img src="img/news-1.png" alt="">
-                    <div class="news-description">
-                        <p class="news-header"><a href="#">Новинка от "Элтекс" - точка доступа WEP-2ac</a></p>
-                        <p class="news-text">Предприятие "Элтекс" запустило производство точки доступа WEP-2ac.</p>
-                    </div>
-                </div>
-                <div class="news-item">
-                    <img src="img/news-2.png" alt="">
-                    <div class="news-description">
-                        <p class="news-header"><a href="#">Новинка от компании Grandstream!</a></p>
-                        <p class="news-text">Скоро в продаже мощный маршрутизатор GWN7000!</p>
-                    </div>
-                </div>
-                <div class="news-item">
-                    <img src="img/news-3.png" alt="">
-                    <div class="news-description">
-                        <p class="news-header"><a href="#">WiFi точка доступа от компании Grandstream!</a></p>
-                        <p class="news-text">Уже скоро в продаже!</p>
-                    </div>
-                </div>
-                <a class="news-info-all" href="#">Все новости</a>
-            </aside>
-            <main class="slider-block">
-                <div class="ad-block">
-                    Advertisement here
-                </div>
-                <div class="slider">
-                    Slider here
-                </div>
-            </main>
-        </section>
+            <button>Подробнее</button>
+          </div>
+          <img src="./img/arrRight.png" class="arrow">
+          <div class="pageNav">
+              <span class="active"></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+        </div>
+      </main>
+    </section>
 
     </div>
 
+    <div class="buy-now-wrap mw cntr psh-wrap">
+        <div class="p-s-h">
+            <div class="t">
+                ЧТО ПОКУПАЮТ ПРЯМО СЕЙЧАС
+            </div>
+        </div>
+        <ul class="buy-now flx psh-wrap mt20">
+        <li>
+            <a href="#" class="ic"> <img src="./img/lock.png" alt="Замок дверной Samsung SHS-2320 XMK/EN"> </a> 
+                <a href="/catalog/provodnye+telefony/provodnoi_telefon_gigaset_d710_white.html">Замок дверной Samsung SHS-2320 XMK/EN</a> 
+            </li>
+          <li>
+            <a href="#" class="ic"> 
+                <img src="./img/openVox.png" alt="GSM-VoIP шлюз OpenVox VoxStack VS-GW2120-4G"> </a> 
+                <a href="#">GSM-VoIP шлюз OpenVox VoxStack VS-GW2120-4G</a> 
+        </li>
+          <li>
+            <a href="#" class="ic"> <img src="./img/telephone.png" alt="IP телефон Grandstream GXP2130"> </a> 
+                <a href="#">IP телефон Grandstream GXP2130</a> 
+            </li>
+          <li>
+            <a href="#" class="ic"> <img src="./img/csm.png" alt="GSM телефон BQD–2051 Rome"> </a> 
+                <a href="#">GSM телефон BQD–2051 Rome</a> 
+            </li>
+        </ul>
+    </div>
+
+    <div class="brands mw cntr psh-wrap">
+        <div class="p-s-h">
+            <div class="t">
+                НАШИ КЛЮЧЕВЫЕ БРЕНДЫ
+            </div>
+        </div>
+        <div>
+            <img src="./img/brands.png" alt="НАШИ КЛЮЧЕВЫЕ БРЕНДЫ">
+        </div>
+    </div>
+
+    <div class="strengths mw cntr psh-wrap">
+        <div class="p-s-h">
+            <div class="t">
+                НАШИ СИЛЬНЫЕ СТОРОНЫ
+            </div>
+        </div>
+        <ul class="ssides flx">
+            <li> <i> <img src="./img/consult.png" alt="Грамотная консультация по каждому товару"> </i>
+                Грамотная консультация по
+                  <br> каждому товару</div>
+              </li>
+              <li> <i> <img src="./img/payment.png" alt="Любые способы оплаты"> </i>
+                Любые способы
+                  <br> оплаты</div>
+              </li>
+              <li> <i> <img src="./img/service.png" alt="Собственный сервисный центр"> </i>
+                Собственный сервисный
+                  <br> центр</div>
+              </li>
+              <li> <i> <img src="./img/pick.png" alt="Разветвленная сеть самовывоза (Pickpoint)"> </i>
+                Разветвленная сеть
+                  <br> самовывоза (Pickpoint)</div>
+              </li>
+        </ul>
+
+    </div>
+
+    
 </body>
+
 </html>
