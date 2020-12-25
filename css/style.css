@@ -599,5 +599,74 @@
         font-weight: 500;
         padding-right: 10px;
     }
+
+    .reasons {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .reasons > div {
+        width: 48%;
+        border: 2px solid;
+        border-radius: 10px;
+    }
+
+    .reasons ul {
+        padding: 30px;
+        list-style: none;
+    }
+
+    .reasons .dis .h {
+        background: #cb0b13;
+        padding-top: 30px;
+        border-radius: 10px 10px 0 0;
+        min-height: 80px;
+    }
+
+    .reasons .adv .h {
+        background: #16a333;
+        padding-top: 30px;
+        border-radius: 10px 10px 0 0;
+        min-height: 80px;
+    }
+
+    .reasons ul > li {
+        margin-bottom: 15px;
+    }
+
+    .adv ul li::before {
+        content: "\2022";
+        color: #16a333;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    .dis ul li::before {
+        content: "\2022";
+        color: #cb0b13;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    .reasons .h {
+        padding-left: 30px;
+        height: 75px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .reasons .dis {
+        border: #f6bdbf 2px solid;
+    }
     
+    .reasons .adv {
+        border: #9bd1a6 2px solid;
+    }
 }
