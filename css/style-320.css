@@ -1,7 +1,53 @@
 @media only screen and (min-width: 320px) and (max-width: 750px) {
     body {
         min-width: 320px;
-        background-color: rgba(0, 128, 0, 0.192);
+    }
+
+    .page-nav-arrow {
+        margin-right: 0;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        border: 2px solid #dbdee6;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .footer-nav-arrow {
+        margin-right: 0;
+        cursor: pointer;
+    }
+
+    .page-nav-arrow:hover {
+        border: 2px solid #ff5e1e;
+    }
+
+    .arrow-right {
+        border: solid #ff5e1e;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 2px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .arrow-left {
+        border: solid #ff5e1e;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 2px;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .arrow-right-footer {
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 2px;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
     }
 
     .wrapper {
@@ -39,5 +85,328 @@
 
     .news {
         display: none;
+    }
+
+    .novelties, .recommended, .sales, .discount {
+        width: 100%;
+        margin-top: 57px;
+    }
+
+    .novelties-header, .recommended-header, .sales-header, .discount-header {
+        display: flex;
+        width: 100%;
+    }
+
+    .novelties-header h2, .recommended-header h2, .sales-header h2, .discount-header h2 {
+        width: 100%;
+        text-transform: uppercase;
+    }
+
+    .novelties-header a, .recommended-header a, .sales-header a, .discount-header a {
+        color: #7798c1;
+        display: none;
+        width: 80px;
+        text-align: end;
+        padding-top: 5px;
+        font-size: 13px;
+    }
+
+    .recommended-header a {
+        width: 125px;
+    }
+
+    .novelties-cards, .discount-cards {
+        display: flex;
+        justify-content: center;
+        margin-top: 42px;
+        overflow-x: scroll;
+    }
+
+    .novelty-card-item {
+        position: relative;
+        width: 285px;
+        height: 388px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .novelty-card-item:last-child {
+        margin-right: 0;
+    }
+
+    .novelty-card-img {
+        width: 154px;
+        height: 162px;
+        display: block;
+        margin: 40px auto 0;
+    }
+
+    .novelty-card-label {
+        position: absolute;
+        top: -5px;
+    }
+
+    .novelty-card-item h3 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .novelty-card-item h3 a {
+        color: #527cb1;
+    }
+
+    .novelty-card-item h3 a:hover {
+        color: #ff5e1e;
+    }
+
+    .novelty-card-price {
+        margin-top: 20px;
+    }
+
+    .current-price {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .previous-price {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 14px;
+        color: #ff6326;
+        text-decoration: line-through;
+    }
+
+    .novelty-card-purchase {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .novelty-card-purchase button {
+        width: 114px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #ff5e1e;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        border: 0px;
+        box-shadow: 0 5px 5px -2px #c44411;
+        cursor: pointer;
+    }
+
+    .novelty-card-purchase button:hover {
+        background-color: #4673ab;
+        box-shadow: 0 5px 5px -2px #4673ab;
+    }
+
+    .novelty-card-purchase a {
+        color: #4673ab;
+        padding-top: 10px;
+    }
+
+    .novelty-card-item:not(:first-child), .discount-card-item:not(:first-child) {
+        display: none;
+    }
+
+    .discount-card-item {
+        width: 285px;
+        height: 388px;
+        border-radius: 10px;
+        border: 1px solid gray;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .discount-name, .discount-more-info {
+        font-size: 16px;
+        color: #4673ab;
+        font-weight: bold;
+    }
+
+    .discount-name, .discount-description {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .discount-more-info {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .discount-card-item:last-child {
+        display: none;
+    }
+
+    .deadline {
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #dbdee6;
+    }
+
+    .deadline span {
+        display: none;
+    }
+
+    .deadline-time {
+        margin-top: 5px;
+        display: flex;
+    }
+
+    .deadline-days, .deadline-hours, .deadline-minutes {
+        text-align: center;
+    }
+
+    .deadline-days span:not(:last-child), .deadline-hours span:not(:last-child), .deadline-minutes span:not(:last-child) {
+        display: inline-block;
+        width: 12px;
+        text-align: center;
+        margin-right: 1px;
+        background-color: #212223;
+        color: #d5d5d5;
+    }
+
+    .deadline-days span:last-child, .deadline-hours span:last-child, .deadline-minutes span:last-child {
+        font-size: 12px;
+        color: #7f8686;
+        display: block;
+        text-align: center;
+    }
+
+    .no-deadline {
+        color: #3e7c0f;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    .subfooter {
+        margin-top: 10px;
+        min-height: 250px;
+        width: 100%;
+        padding-bottom: 40px;
+        background-color: #5c7489;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subfooter-blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subfooter-first, .subfooter-second, .subfooter-third, .subfooter-fourth {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subfooter-first img {
+        width: 130px;
+        height: 40px;
+    }
+
+    .subfooter-first span, .subfooter-second span {
+        font-size: 13px;
+        margin-top: 30px;
+        color: #c3cfd8;
+    }
+
+    .subfooter-second span {
+        margin-top: 0;
+    }
+
+    .subfooter-second span a {
+        color: #c3cfd8;
+        font-size: 13px;
+    }
+
+    .subfooter-third a {
+        color: #c3cfd8;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .subfooter-second, .subfooter-third {
+        display: none;
+    }
+
+    .back-call {
+        display: none;
+    }
+
+    .back-call {
+        cursor: pointer;
+    }
+
+    .company-info {
+        margin-left: 20px;
+        color: #fff;
+    }
+
+    .company-info span {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .viber-contacts {
+        display: flex;
+        margin-bottom: 5px;
+    }
+
+    .viber-contacts span {
+        font-size: 13px;
+    }
+
+    .viber-contacts img {
+        height: 16px;
+    }
+
+    .company-info a {
+        display: block;
+        color: #fff;
+    }
+
+    .social-media {
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .footer {
+        width: 100%;
+        height: 75px;
+        background-color: #2c3f53;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        height: 100%;
+    }
+
+    .footer-content p {
+        display: none;
+    }
+
+    .footer-nav-item {
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #fff;
+        color: #c8d4dc;
+    }
+
+    .footer-nav-item:last-child {
+        margin-bottom: 20px;
     }
 }
