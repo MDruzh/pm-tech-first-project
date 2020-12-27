@@ -21,7 +21,6 @@
 
     .head {
         height: 140px;
-        border: 1px solid #000;
     }
 
     .mobile-header {
@@ -101,20 +100,34 @@
         display: none;
     }
 
+    .hcontacts-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 350px;
+    }
+
     .hcontacts {
         font-size: 9pt;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
-        width: 130px;
+        width: 200px;
         color: #040d0d;
+        margin: 0px;
+        height: 50px;
     }
 
     .hcontacts .num {
         font-size: 150%;
     }
 
-    .hcontacts .recall {
+    .econ {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recall {
         display: none;
     }
 
@@ -122,10 +135,13 @@
         width: 100%;
     }
 
-    .hcontacts .e {
-        display: flex;
-        align-self: end;
+    .e {
+        display: inline-block;
         color: #4673ab;
+    }
+
+    #schedule {
+        display:none;
     }
 
     .search {
@@ -218,6 +234,15 @@
         font-style: italic;
         text-transform: uppercase;
         padding: 10px 5px;
+    }
+
+    #hdlogo-wrapper {
+        width: 280px;
+    }
+
+    .cart {
+        max-height: 30px;
+        margin-left: -30px;
     }
 
     .tcart {
