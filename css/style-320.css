@@ -75,7 +75,8 @@
     }
 
     .logo {
-        width: 30%;
+        width: 130px;
+        height: 40px;
     }
 
     .nm {
@@ -93,17 +94,15 @@
         line-height: 90%;
         border-radius: 10px;
         padding: 0 3px;
-        margin: -10px;
+        margin: -7px;
     }
 
     .slogan {
-        font-size: 66.7%;
-        color: #818588;
-        text-transform: uppercase;
-        letter-spacing: .8px;
+        display: none;
     }
 
     .hcontacts {
+        
         display: block;
         width: 23%;
         padding-left: 40px;
@@ -179,6 +178,10 @@
         border-bottom: #c44817 3px solid;
     }
 
+    .btn-options {
+        display: none;
+    }
+
     .slider {
         display: flex;
         position: relative;
@@ -219,6 +222,7 @@
         color: #040d0d;
         cursor: pointer;
         display: flex;
+        justify-content: end;
         align-items: center;
         padding: 12px 15px;
     }
@@ -346,7 +350,7 @@
         justify-content: space-between;
         align-items: center;
         background: url("../img/line.png") center center repeat-x;
-        height: 80px;
+        height: 40px;
     }
 
     .p-s-h .t {
@@ -464,10 +468,8 @@
         width: 320px;
         list-style: none;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         flex-wrap: wrap;
-        margin-left: 10px;
-        margin-bottom: 30px;
     }
 
     .htw-tabs li {
@@ -492,13 +494,12 @@
         display: flex;
         align-items: flex-start;
         flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 30px 0;
+        margin: 10px 0;
     }
 
     .htw-scheme img {
-        margin: 10px;
-        margin-left: -20px;
+        margin: 20px;
+        margin-left: -5px;
     }
 
     .htw-tabs li.tab span {
@@ -512,9 +513,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: left;
         width: 130px;
-        font-weight: 200;
+        margin-top: 10px;
     }
 
     #secondarr {
@@ -522,17 +522,15 @@
     }
 
     .arrow-wrapper img {
-        margin: 10px 10px;
+        margin: 0px;
     }
 
     .arrow-wrapper div {
-        width: 120px;
         margin-top: 10px;
     }
 
     #htw-scheme-wrapper {
-        margin: 80px 0px;
-        margin-bottom: 0px;
+        margin: 0px;
     }
 
     .wynu-wrapper{
