@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMY</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="nav">
+                <div class="mobile-header">
+                    <img src="img/burger-logo.png" alt="burger logo">
+                    <span>Меню</span>
+                </div>
+                <ul class="main-nav">
+                    <li class="main-nav-item">Каталог<span class="test"></span></li>
+                    <li class="main-nav-item">О компании</li>
+                    <li class="main-nav-item">Оплата и доставка</li>
+                    <li class="main-nav-item">Гарантии и возврат</li>
+                    <li class="main-nav-item">Сотрудничество</li>
+                    <li class="main-nav-item">Услуги</li>
+                    <li class="main-nav-item">Решения</li>
+                    <li class="main-nav-item">Техподдержка</li>
+                    <li class="main-nav-item">Контакты</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+
+        <section class="head">
+            <div class="htop">
+              <div>
+                Ваш регион:
+                <span class="dotted">
+                  Москва
+                </span>
+              </div>
+              <div class="auth">
+                <a href="#">Войти</a> &#160;&#160;&#160;&#160;
+                <a href="#">Личный Кабинет</a>
+              </div>
+            </div>
+            <div class="hd">
+              <div id="hdlogo-wrapper">
+                <div class="logo">
+                  <div class="nm">
+                    HO
+                    <div>MY</div>
+                    RU
+                  </div>
+                  <div class="slogan">Оборудование и решения для VoIP</div>
+                </div>
+                <div class="back-call">
+                    <img src="img/back-call.png" alt="back call">
+                </div>
+                <div class="hcontacts-wrapper">
+                  <div class="hcontacts">
+                    <div class="p">
+                      <p class="num">
+                        +7 495 2-55-44-66
+                      </p>
+                      <p id="schedule">(пн-пт с 9 до 18 ч)</p>
+                    </div>
+                    <div>
+                      <p>
+                        <img src="icons/whatsapp.png">
+                        <img src="icons/viber.png"> +7 903 111-11-11
+                      </p>
+                    </div>
+                  </div>
+                  <div class="econ">
+                  <div class="e">
+                    <a href="#">info@homy.ru</a>
+                  </div>
+                  <div class="skype">
+                    <img src="./img/skype.png">
+                    skype-on.06
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="search">
+                <div class="t">
+                  <div>VOIP РЕШЕНИЯ</div>
+                  ДЛЯ ЭКОНОМНЫХ ЛЮДЕЙ
+                </div>
+                <div class="topSrch">
+                  <form action="/search/" method="get">
+                    <input type="text" value="" placeholder="Поиск по сайту">
+                    <button class="btn">искать</button>
+                  </form>
+                </div>
+              </div>
+              <div class="cart">
+                <div class="tcart">
+                  <img src="./img/glass.png" id="glass-img">
+                  <img src="img/cart.png" id="cart-img">
+                  <div class="cart-info-wrapper">
+                    <p class="t">КОРЗИНА</p>
+                    <div class="cart-sum-wrapper">
+                      <span class="dotted">4</span>
+                      /
+                      <p id="totalCartSum">4 000р.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-options">
+      
+                  <a href="#" class="dotted">
+                    <img style="vertical-align: middle" src="img/heart.png" height="17px">
+                    Избранные 7
+                  </a>
+      
+                  <a href="#" class="dotted">
+                    <img style="vertical-align: middle" src="img/compare.png" height="20px">
+                    Сравнения 2
+                  </a>
+      
+                </div>
+              </div>
+          </section>
+
+        <nav class="page-nav">
+            <ul class="page-nav-list">
+                <li class="page-nav-list-item"><a href="#">Voip оборудование</a></li>
+                <li class="page-nav-list-item"><a href="#">Skype оборудование</a></li>
+                <li class="page-nav-list-item"><a href="#">GSM оборудование</a></li>
+                <li class="page-nav-list-item"><a href="#">Видео-оборудование</a></li>
+                <li class="page-nav-list-item"><a href="#">Радио и dest телефоны</a></li>
+                <li class="page-nav-list-item"><a href="#">Гарнитуры</a></li>
+                <li class="page-nav-list-item"><a href="#">Электронные замки</a></li>
+                <li class="page-nav-list-item"><a href="#">Домофонные системы</a></li>
+                <li class="page-nav-list-item"><a href="#">Системы записи<br> телефонных разговоров</a></li>
+                <li class="page-nav-list-item"><a href="#">Сетевое оборудование</a></li>
+                <div class="page-nav-arrow"><i class="arrow-right"></i></div>
+            </ul>
+        </nav>
+
+        <section class="news">
+            <aside class="news-info">
+                <h2>Новости компании</h2><hr>
+                <div class="news-item">
+                    <div class="news-img">
+                        <img src="img/news-1.png" alt="first ad">
+                        <span class="date">15</span>
+                        <span class="day">октября</span>
+                    </div>
+                    <div class="news-description">
+                        <p class="news-header"><a href="#">Новинка от "Элтекс" - точка доступа WEP-2ac</a></p>
+                        <p class="news-text">Предприятие "Элтекс" запустило производство точки доступа WEP-2ac.</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-img">
+                        <img src="img/news-2.png" alt="first ad">
+                        <span class="date">07</span>
+                        <span class="day">октября</span>
+                    </div>
+                    <div class="news-description">
+                        <p class="news-header"><a href="#">Новинка от компании Grandstream!</a></p>
+                        <p class="news-text">Скоро в продаже мощный маршрутизатор GWN7000!</p>
+                    </div>
+                </div>
+                <div class="news-item">
+                    <div class="news-img">
+                        <img src="img/news-3.png" alt="first ad">
+                        <span class="date">28</span>
+                        <span class="day">сентября</span>
+                    </div>
+                    <div class="news-description">
+                        <p class="news-header"><a href="#">WiFi точка доступа от компании Grandstream!</a></p>
+                        <p class="news-text">Уже скоро в продаже!</p>
+                    </div>
+                </div>
+                <a class="news-info-all" href="#">Все новости</a>
+            </aside>
+            <main class="slider-block">
+                <div class="sliderHead">
+                  <b>Более 2000 товаров</b> от 40+ производителей в одном магазине.
+                  <span style="color: #4673ab; font-weight: bold;">Любые решения "под ключ"</span>
+                </div>
+                <div class="slider">
+                  <img src="img/arrLeft.png" class="arrow">
+                  <div class="sliderBanner">
+                    <div>
+                      <h1>Революционное решение</h1>
+                      <h2>На рынке среди систем вкс!</h2>
+                      <h3>GVC 3200 от компании grandstream это:</h3>
+                    </div>
+                    <ul>
+                      <li>
+                        9-ти сторонняя аудио/видео конференция без покупки дополнительного ПО
+                      </li>
+                      <li>2 Мпикс камера CMOS с разрешением 1920x1080V@15fps</li>
+                      <li>
+                        Гигабитный порт, встроенный модуль WiFi (802.11n) и Bluetooth 4.0 Miracast
+                      </li>
+                    </ul>
+                    <button>Подробнее</button>
+                  </div>
+                  <img src="img/arrRight.png" class="arrow">
+                  <div class="pageNav">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </main>
+        </section>
+
+        <section class="novelties">
+            <div class="novelties-header">
+                <h2>Новинки</h2>
+                <div class="page-nav-arrow hide"><i class="arrow-left"></i></div>
+                <div class="page-nav-arrow hide"><i class="arrow-right"></i></div>
+                <a href=#>Все новинки</a>
+            </div>
+            <div class="novelties-cards">
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/new-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-1.png" alt="first new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/new-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-2.png" alt="second new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/new-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-3.png" alt="third new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/new-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-4.png" alt="fourth new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="recommended">
+            <div class="recommended-header">
+                <h2>Рекомендуем</h2>
+                <div class="page-nav-arrow hide"><i class="arrow-left"></i></div>
+                <div class="page-nav-arrow hide"><i class="arrow-right"></i></div>
+                <a href=#>Все рекомендации</a>
+            </div>
+            <div class="novelties-cards">
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/like-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-3.png" alt="first new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/like-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-4.png" alt="second new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/like-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-1.png" alt="third new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/like-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-2.png" alt="fourth new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sales">
+            <div class="sales-header">
+                <h2>Распродажа</h2>
+                <div class="page-nav-arrow hide"><i class="arrow-left"></i></div>
+                <div class="page-nav-arrow hide"><i class="arrow-right"></i></div>
+                <a href=#>Все товары</a>
+            </div>
+            <div class="novelties-cards">
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/percentage-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-2.png" alt="first new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/percentage-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-3.png" alt="second new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/percentage-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-4.png" alt="third new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+                <div class="novelty-card-item">
+                    <img class="novelty-card-label" src="img/percentage-label.png" alt="new label">
+                    <img class="novelty-card-img" src="img/novelty-1.png" alt="fourth new item">
+                    <h3><a href="#">IP телефон Siemens Gigaset C530A IP</a></h3>
+                    <div class="novelty-card-price">
+                        <span>Цена:</span><span class="current-price">12 300 р.</span><span class="previous-price">15 500 р.</span>
+                    </div>
+                    <div class="novelty-card-purchase">
+                        <button><img src="icons/ico_cart.svg" alt="white cart icon" width="15" height="15"> Купить</button>
+                        <a href="#">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="discount">
+            <div class="discount-header">
+                <h2>Акции</h2>
+                <div class="page-nav-arrow hide"><i class="arrow-left"></i></div>
+                <div class="page-nav-arrow hide"><i class="arrow-right"></i></div>
+                <a href=#>Все акции</a>
+            </div>
+            <div class="discount-cards">
+                <div class="discount-card-item">
+                    <a class="discount-name" href="#">Название акции</a><br>
+                    <img src="img/discounts/discount-1.png" alt="first discount">
+                    <p class="discount-description">Важными преимуществом использования айпи телефона вместо обычного, является на порядок более низкая цена соединения. </p>
+                    <div class="deadline">
+                        <span>Срок<br> действия: </span>
+                        <div class="deadline-time">
+                            <div class="deadline-days">
+                                <span>0</span><span>0</span>
+                                <span>дней</span>
+                            </div>:<br>
+                            <div class="deadline-hours">
+                                <span>0</span><span>0</span>
+                                <span>часов</span>
+                            </div>:<br>
+                            <div class="deadline-minutes">
+                                <span>1</span><span>6</span><br>
+                                <span>минут</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="discount-more-info" href="">Подробнее</a>
+                </div>
+                <div class="discount-card-item">
+                    <a class="discount-name" href="#">Название акции</a><br>
+                    <img src="img/discounts/discount-2.png" alt="first discount">
+                    <p class="discount-description">Важными преимуществом использования айпи телефона вместо обычного, является на порядок более низкая цена соединения. </p>
+                    <div class="deadline">
+                        <span>Срок<br> действия: </span>
+                        <span class="no-deadline">Бессрочно</span>
+                    </div>
+                    <a class="discount-more-info" href="">Подробнее</a>
+                </div>
+                <div class="discount-card-item">
+                    <a class="discount-name" href="#">Название акции</a><br>
+                    <img src="img/discounts/discount-3.png" alt="first discount">
+                    <p class="discount-description">Важными преимуществом использования айпи телефона вместо обычного, является на порядок более низкая цена соединения. </p>
+                    <div class="deadline">
+                        <span>Срок<br> действия: </span>
+                        <div class="deadline-time">
+                            <div class="deadline-days">
+                                <span>0</span><span>0</span>
+                                <span>дней</span>
+                            </div>:<br>
+                            <div class="deadline-hours">
+                                <span>0</span><span>0</span>
+                                <span>часов</span>
+                            </div>:<br>
+                            <div class="deadline-minutes">
+                                <span>1</span><span>6</span><br>
+                                <span>минут</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="discount-more-info" href="">Подробнее</a>
+                </div>
+                <div class="discount-card-item">
+                    <a class="discount-name" href="#">Название акции</a><br>
+                    <img src="img/discounts/discount-4.png" alt="first discount">
+                    <p class="discount-description">Важными преимуществом использования айпи телефона вместо обычного, является на порядок более низкая цена соединения. </p>
+                    <div class="deadline">
+                        <span>Срок<br> действия: </span>
+                        <div class="deadline-time">
+                            <div class="deadline-days">
+                                <span>0</span><span>0</span>
+                                <span>дней</span>
+                            </div>:<br>
+                            <div class="deadline-hours">
+                                <span>0</span><span>0</span>
+                                <span>часов</span>
+                            </div>:<br>
+                            <div class="deadline-minutes">
+                                <span>1</span><span>6</span><br>
+                                <span>минут</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="discount-more-info" href="">Подробнее</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="wrapper">
+
+    <div class="buy-now-wrap mw cntr mt40">
+        <div class="p-s-h">
+          <div class="t">
+            ЧТО ПОКУПАЮТ ПРЯМО СЕЙЧАС
+          </div>
+        </div>
+        <ul class="buy-now flx">
+          <li>
+            <a href="#" class="ic"> <img src="./img/lock.png" alt="Замок дверной Samsung SHS-2320 XMK/EN"> </a>
+            <a href="/catalog/provodnye+telefony/provodnoi_telefon_gigaset_d710_white.html">Замок дверной Samsung SHS-2320
+              XMK/EN</a>
+          </li>
+          <li>
+            <a href="#" class="ic">
+              <img src="./img/openVox.png" alt="GSM-VoIP шлюз OpenVox VoxStack VS-GW2120-4G"> </a>
+            <a href="#">GSM-VoIP шлюз OpenVox VoxStack VS-GW2120-4G</a>
+          </li>
+          <li>
+            <a href="#" class="ic"> <img src="./img/telephone.png" alt="IP телефон Grandstream GXP2130"> </a>
+            <a href="#">IP телефон Grandstream GXP2130</a>
+          </li>
+          <li class="buy-last-item">
+            <a href="#" class="ic"> <img src="./img/csm.png" alt="GSM телефон BQD–2051 Rome"> </a>
+            <a href="#">GSM телефон BQD–2051 Rome</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="brands mw cntr mt40">
+        <div class="p-s-h">
+          <div class="t">
+            НАШИ КЛЮЧЕВЫЕ БРЕНДЫ
+          </div>
+        </div>
+        <div class="brands-logo">
+          <img class="big-brands" src="./img/brands.png" alt="НАШИ КЛЮЧЕВЫЕ БРЕНДЫ">
+          <img class="small-brands" src="./img/brands-small.png" alt="НАШИ КЛЮЧЕВЫЕ БРЕНДЫ">
+        </div>
+      </div>
+
+      <div class="strengths mw cntr mt40">
+        <div class="p-s-h">
+          <div class="sst">
+            НАШИ СИЛЬНЫЕ СТОРОНЫ
+          </div>
+        </div>
+        <ul class="ssides flx">
+          <li>
+            <div class="cntr"> <img src="./img/consult.png" alt="Грамотная консультация по каждому товару"> </div>
+            <p>Грамотная консультация по
+              каждому товару</p>
+          </li>
+          <li>
+            <div class="cntr"> <img src="./img/payment.png" alt="Любые способы оплаты"> </div>
+            Любые способы
+            <br> оплаты
+          </li>
+          <li>
+            <div class="cntr"> <img src="./img/service.png" alt="Собственный сервисный центр"> </div>
+            Собственный сервисный
+            <br> центр
+          </li>
+          <li>
+            <div class="cntr"> <img src="./img/pick.png" alt="Разветвленная сеть самовывоза (Pickpoint)"> </div>
+            Разветвленная сеть
+            <br> самовывоза (Pickpoint)
+          </li>
+        </ul>
+      </div>  
+
+      <div class="reasons-wrap mw mt20 mt40 cntr">
+        <div class="p-s-h">
+          <div class="t">5 ПРИЧИН ВЫБРАТЬ НАШУ КОМПАНИЮ</div>
+        </div>
+        <div class="reasons flx">
+          <div class="dis">
+            <div class="whyhead">
+              <img src="./img/cross.png">
+              <h1>
+                С чем сталкиваются клиенты в 85% случаев, когда обращаются к нашим конкурентам?
+              </h1>
+            </div>
+            <ul>
+              <li>
+                <span><b>1.5 беглых менеджера</b> по продажам со своим сайтом,
+                  имитирующие торговую компанию.</span>
+              </li>
+              <li>
+                <span><b>Торговля серым, несертифицированным товаром,</b> что
+                  выливается в проблемы при гарантийном обслуживании.</span>
+              </li>
+              <li>
+                <span><b>Менеджеры по продажам знакомы с оборудованием лишь на
+                    бумаге,</b>
+                  часто не знают, что они продают.</span>
+              </li>
+              <li>
+                <span><b>Компании занимаются только продажей,</b> не проводят
+                  установку и настройку оборудования под ключ. Не оказывают
+                  техподдержку.</span>
+              </li>
+              <li>
+                <span><b>Сложная процедура гарантийного ремонта</b> и возврата
+                  товара в случае проблем. Не понятно, куда обращаться по
+                  гарантии.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="adv">
+            <div class="whyhead">
+              <img src="./img/check.png">
+              <h1>
+                Какой сервис предложим мы?
+              </h1>
+            </div>
+            <ul>
+              <li>
+                <span><b>Открытая компания</b> с полным штатом профильных
+                  специалистов</span>
+              </li>
+              <li>
+                <span>Торговля оборудованием, пришедшим в РФ
+                  <b>исключительно через официальные поставки</b>.</span>
+              </li>
+              <li>
+                <span><b>Мы прекрасно понимаем,</b> что за оборудование продаем.
+                  Можем проконсультировать по функционалу, либо подобрать
+                  аналог.</span>
+              </li>
+              <li>
+                <span><b>Оказываем полный комплекс услуг</b> по технической
+                  поддержке клиентов, а также проводим установку и настройку
+                  силами своего IT подразделения.</span>
+              </li>
+              <li>
+                <span><b>Мы имеем собственный сервисный центр,</b> который
+                  осуществляет гарантийный ремонт оборудования.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="wenum-wrap mw cntr mt40">
+        <div class="p-s-h">
+          <div class="t">
+            МЫ В ЦИФРАХ
+          </div>
+        </div>
+        <ul class="wenum flx mt20">
+          <li>
+            <div>10</div> 10 лет на рынке
+          </li>
+          <li>
+            <div class="-g -m">25/5</div> 25 профильных специалистов, 5 менеджеров отдела продаж
+          </li>
+          <li>
+            <div class="-s">
+              <div>2222
+                <br><span>x</span>
+                <br>100</div>
+            </div> 2222 товара в каталоге среди 100 брендов
+          </li>
+          <li>
+            <div class="-g">29</div> 29 торговых партнеров
+          </li>
+          <li>
+            <div>14</div> 14 отгрузок в сутки
+          </li>
+          <li>
+            <div class="-g">1</div> 1 из лидеров рынка
+          </li>
+        </ul>
+      </div>
+
+      <div class="cntr mw mt20">
+        <div class="p-s-h">
+          <div class="t">КАК С НАМИ РАБОТАТЬ?</div>
+        </div>
+        <div class="htw">
+          <ul class="htw-tabs">
+            <li class="retail">В розницу</li>
+            <li class="tab"><span>Оптовикам</span></li>
+            <li class="tab"><span>Партнерам</span></li>
+            <li class="tab"><span>Покупая с настройкой</span></li>
+          </ul>
+          <div id="htw-scheme-wrapper">
+            <div class="htw-scheme mt40">
+              <div class="arrow-wrapper">
+                <img src="./img/phone.png">
+                <div>
+                  <b>1.</b>
+                  Обращение через сайт/по телефону
+                </div>
+              </div>
+              <img src="./img/arrow.png">
+              <div class="arrow-wrapper">
+                <img src="./img/confirm.png">
+                <div>
+                  <b>2.</b>
+                  Подтверждение заказа
+                </div>
+              </div>
+              <img id="secondarr" src="./img/arrow.png">
+              <div class="arrow-wrapper">
+                <img src="./img/delivery.png">
+                <div>
+                  <b>3.</b>
+                  Доставка товара
+                </div>
+              </div>
+              <img src="./img/arrow.png">
+              <div class="arrow-wrapper">
+                <img src="./img/pay.png">
+                <div>
+                  <b>4.</b>
+                  Оплата товара при получении, либо предоплата
+                  по безналичному расчету до п. 3
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mw cntr psh-wrap">
+        <div class="p-s-h"></div>
+        <div class="wynu-wrapper">
+          <span>Интернет магазин Хомиру поможет вам в выборе оборудования для <a href="">IP телефонии</a> - которая активно
+            используется как в бизнесе для общения с клиентами,
+            партнёрами, поставщиками и инвесторами по всему миру, так и в повседневной жизни, для разговоров с друзьями и
+            близкими в других городах.
+            Важными преимуществом использования айпи телефона вместо обычного, является на порядок более низкая цена
+            соединения.
+            Звонок в регион, расположенный за несколько тысяч километров от вас, может обойтись намного дешевле, чем
+            разговор по сотовому телефону в пределах города.
+            <br><br> Для <a href="">подключения к услугам IP-телефонии</a> требуется только стабильный выход в интернет и
+            устройство коммуникации, например, компьютер с гарнитурой или ip телефон.
+          </span>
+          <span>Наш магазин айпи телефонии Homy предлагает <a href="">полный спектр решений</a> для бизнеса и частных лиц в
+            сфере организации современной связи
+            (в том числе Skype телефоны и SIP телефоны).
+            IP телефоны очень просты в использовании, так как применяется привычный всем, практически естественный интерфейс
+            обычного телефона.
+            Для работы с ним не требуется каких-либо специальных навыков или дополнительных операций:
+            достаточно просто выполнить подключение и <a href="">конфигурирование устройства</a> и положить его на то место,
+            где ранее лежал ваш городской телефон.
+            С этого момента вы и ваши сотрудники можете свободно пользоваться дешевой и защищённой связью.</span>
+        </div>
+      </div>
+
+    </div>
+
+    <section class="subfooter">
+        <div class="wrapper">
+            <div class="footer-nav">
+                <div class="footer-nav-item">
+                    <span><a href="#">Доставка и оплата</a></span>
+                    <div class="footer-nav-arrow"><i class="arrow-right-footer"></i></div>
+                </div>
+                <div class="footer-nav-item">
+                    <span><a href="#">Гарантии и возврат</a></span>
+                    <div class="footer-nav-arrow"><i class="arrow-right-footer"></i></div>
+                </div>
+                <div class="footer-nav-item">
+                    <span><a href="#">Техподдержка</a></span>
+                    <div class="footer-nav-arrow"><i class="arrow-right-footer"></i></div>
+                </div>
+                <div class="footer-nav-item">
+                    <span><a href="#">Контакты</a></span>
+                    <div class="footer-nav-arrow"><i class="arrow-right-footer"></i></div>
+                </div>
+            </div>
+            <div class="subfooter-blocks">
+                <div class="subfooter-first">
+                    <img src="img/logo.png" alt="logo">
+                    <span>© ХомиРу, 2006-2016<br>Оборудование и решения для VoIP</span>
+                    <span>Перепечатка материалов возможна<br> только с активной ссылкой на homy.ru</span>
+                </div>
+                <div class="subfooter-second">
+                    <span>г. Москва, Зеленоград,<br>
+                        Панфиловский пр., дом 8, строение 1<br>
+                        <a href="#">Схема проезда</a>
+                    </span>
+                </div>
+                <div class="subfooter-third">
+                    <a href="#">Доставка и оплата</a>
+                    <a href="#">Гарантии и возврат</a>
+                    <a href="#">Техподдержка</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="subfooter-fourth">
+                    <div class="back-call">
+                        <img src="img/back-call.png" alt="back call">
+                    </div>
+                    <div class="company-info">
+                        <span>+7 495 2-55-44-66</span>
+                        <span>(пн-пт с 9 до 18 ч)</span>
+                        <div class="viber-contacts">
+                            <img src="icons/whatsapp.png" alt="whatsapp">
+                            <img src="icons/viber.png" alt="viber">
+                            <span>+7 903 111-11-11</span>
+                        </div>
+                        <a href="#">info@homy.ru</a>
+                        <img class="social-media" src="icons/social-media.png" alt="social medias">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer-content">
+                <p>Все описания и характеристики товаров носят информационный характер и могут отличаться от представленных в технической документации производителей.<br> Уточняйте информацию у наших менеджеров.</p>
+                <img src="icons/stats.png" alt="stats">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
